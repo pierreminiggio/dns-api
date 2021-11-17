@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b4bd2ba23d0e4c1d288ea193e811a231",
+    "packages": [
+        {
+            "name": "pierreminiggio/config-provider",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/php-config-provider.git",
+                "reference": "0c8c3de8d1b4540005b45b1f5ec2ac6a6b4b04b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/php-config-provider/zipball/0c8c3de8d1b4540005b45b1f5ec2ac6a6b4b04b1",
+                "reference": "0c8c3de8d1b4540005b45b1f5ec2ac6a6b4b04b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PierreMiniggio\\ConfigProvider\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "description": "Config Provider",
+            "support": {
+                "issues": "https://github.com/pierreminiggio/php-config-provider/issues",
+                "source": "https://github.com/pierreminiggio/php-config-provider/tree/1.0.0"
+            },
+            "time": "2021-05-21T15:05:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
