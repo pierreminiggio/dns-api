@@ -104,7 +104,7 @@ class App
                 $currentIp = trim(substr($line, strlen($currentDomainLineStart)));
 
                 if ($currentIp === $ip) {
-                    http_response_code(201);
+                    http_response_code(204);
 
                     return;
                 }
@@ -126,6 +126,6 @@ class App
 
         file_put_contents($domainFile, implode($newLines));
         shell_exec($config['restartDNSCommand']);
-        http_response_code(201);
+        http_response_code(204);
     }
 }
